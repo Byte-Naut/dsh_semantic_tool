@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 4,
+  "generatedAt": "2026-09-03T21:35:22.368Z",
+  "experimentId": "cordis-agent-capability-boundary-e4-v01",
+  "stage": "calibration-only",
+  "requestedModel": "gemini-3.8-flash",
+  "slotCount": 16,
+  "totalCostUsd": 3.116497,
+  "validity": {
+    "valid": 16
+  },
+  "curve": [
+    {
+      "seedId": "e4-depth-n01-cal",
+      "depth": 1,
+      "native": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 2,
+        "expectedComponents": 2,
+        "totalToolCalls": 21,
+        "callsToEvidenceClosure": 13,
+        "grossInputTokens": 86804,
+        "costUsd": 0.094083
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 2,
+        "expectedComponents": 2,
+        "totalToolCalls": 9,
+        "callsToEvidenceClosure": 2,
+        "grossInputTokens": 56538,
+        "costUsd": 0.056608
+      },
+      "primaryPattern": "N+ / S+",
+      "semanticMinusNativeToolCalls": -12,
+      "semanticMinusNativeInputTokens": -30266
+    },
+    {
+      "seedId": "e4-depth-n02-cal",
+      "depth": 2,
+      "native": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 3,
+        "expectedComponents": 3,
+        "totalToolCalls": 21,
+        "callsToEvidenceClosure": 14,
+        "grossInputTokens": 85894,
+        "costUsd": 0.087839
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 3,
+        "expectedComponents": 3,
+        "totalToolCalls": 8,
+        "callsToEvidenceClosure": 2,
+        "grossInputTokens": 65666,
+        "costUsd": 0.070568
+      },
+      "primaryPattern": "N+ / S+",
+      "semanticMinusNativeToolCalls": -13,
+      "semanticMinusNativeInputTokens": -20228
+    },
+    {
+      "seedId": "e4-depth-n04-cal",
+      "depth": 4,
+      "native": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 5,
+        "expectedComponents": 5,
+        "totalToolCalls": 22,
+        "callsToEvidenceClosure": 15,
+        "grossInputTokens": 108595,
+        "costUsd": 0.102716
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 5,
+        "expectedComponents": 5,
+        "totalToolCalls": 7,
+        "callsToEvidenceClosure": 2,
+        "grossInputTokens": 65647,
+        "costUsd": 0.069965
+      },
+      "primaryPattern": "N+ / S+",
+      "semanticMinusNativeToolCalls": -15,
+      "semanticMinusNativeInputTokens": -42948
+    },
+    {
+      "seedId": "e4-depth-n08-cal",
+      "depth": 8,
+      "native": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 9,
+        "expectedComponents": 9,
+        "totalToolCalls": 23,
+        "callsToEvidenceClosure": 16,
+        "grossInputTokens": 246064,
+        "costUsd": 0.214807
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 9,
+        "expectedComponents": 9,
+        "totalToolCalls": 8,
+        "callsToEvidenceClosure": 2,
+        "grossInputTokens": 104759,
+        "costUsd": 0.100615
+      },
+      "primaryPattern": "N+ / S+",
+      "semanticMinusNativeToolCalls": -15,
+      "semanticMinusNativeInputTokens": -141305
+    },
+    {
+      "seedId": "e4-depth-n16-cal",
+      "depth": 16,
+      "native": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 17,
+        "expectedComponents": 17,
+        "totalToolCalls": 36,
+        "callsToEvidenceClosure": 29,
+        "grossInputTokens": 337799,
+        "costUsd": 0.292732
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 17,
+        "expectedComponents": 17,
+        "totalToolCalls": 6,
+        "callsToEvidenceClosure": 2,
+        "grossInputTokens": 108061,
+        "costUsd": 0.106853
+      },
+      "primaryPattern": "N+ / S+",
+      "semanticMinusNativeToolCalls": -30,
+      "semanticMinusNativeInputTokens": -229738
+    },
+    {
+      "seedId": "e4-depth-n24-cal",
+      "depth": 24,
+      "native": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 25,
+        "expectedComponents": 25,
+        "totalToolCalls": 40,
+        "callsToEvidenceClosure": 32,
+        "grossInputTokens": 456592,
+        "costUsd": 0.393433
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 25,
+        "expectedComponents": 25,
+        "totalToolCalls": 8,
+        "callsToEvidenceClosure": 3,
+        "grossInputTokens": 218394,
+        "costUsd": 0.199492
+      },
+      "primaryPattern": "N+ / S+",
+      "semanticMinusNativeToolCalls": -32,
+      "semanticMinusNativeInputTokens": -238198
+    },
+    {
+      "seedId": "e4-depth-n32-cal",
+      "depth": 32,
+      "native": {
+        "validity": "valid",
+        "primaryPass": false,
+        "runtimePass": true,
+        "semanticClosure": false,
+        "failureClass": "wrong-semantic-conclusion",
+        "criticalErrors": [],
+        "correctPathPrefix": 33,
+        "expectedComponents": 33,
+        "totalToolCalls": 19,
+        "callsToEvidenceClosure": null,
+        "grossInputTokens": 400226,
+        "costUsd": 0.343309
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 33,
+        "expectedComponents": 33,
+        "totalToolCalls": 7,
+        "callsToEvidenceClosure": 3,
+        "grossInputTokens": 242838,
+        "costUsd": 0.218226
+      },
+      "primaryPattern": "N- / S+",
+      "semanticMinusNativeToolCalls": -12,
+      "semanticMinusNativeInputTokens": -157388
+    },
+    {
+      "seedId": "e4-depth-n48-cal",
+      "depth": 48,
+      "native": {
+        "validity": "valid",
+        "primaryPass": false,
+        "runtimePass": true,
+        "semanticClosure": false,
+        "failureClass": "wrong-semantic-conclusion",
+        "criticalErrors": [],
+        "correctPathPrefix": 49,
+        "expectedComponents": 49,
+        "totalToolCalls": 36,
+        "callsToEvidenceClosure": null,
+        "grossInputTokens": 528991,
+        "costUsd": 0.470089
+      },
+      "semantic": {
+        "validity": "valid",
+        "primaryPass": true,
+        "runtimePass": true,
+        "semanticClosure": true,
+        "failureClass": null,
+        "criticalErrors": [],
+        "correctPathPrefix": 49,
+        "expectedComponents": 49,
+        "totalToolCalls": 7,
+        "callsToEvidenceClosure": 3,
+        "grossInputTokens": 332079,
+        "costUsd": 0.295162
+      },
+      "primaryPattern": "N- / S+",
+      "semanticMinusNativeToolCalls": -29,
+      "semanticMinusNativeInputTokens": -196912
+    }
+  ],
+  "bracketDecision": {
+    "schemaVersion": 4,
+    "generatedAt": "2026-09-03T21:35:22.368Z",
+    "experimentId": "cordis-agent-capability-boundary-e4-v01",
+    "calibrationResultsHash": "5564f426e325cff5f5d68aec56d427cad56c4de4b70516b5651062d707c4a496",
+    "allSlotsValid": true,
+    "licensed": false,
+    "reason": "no later both-fail high anchor",
+    "selectedDepths": [],
+    "anchors": null,
+    "immutableRule": [
+      "Divergence is the earliest fully valid depth where Semantic primary passes and Native primary fails for a scored non-censor outcome.",
+      "Low anchor is the greatest earlier fully valid depth where both arms primary pass.",
+      "High anchor is the earliest later fully valid depth where both arms primary fail.",
+      "The selected interval is [low, divergence, high]; if any anchor is absent, no confirmatory run is licensed.",
+      "Any infrastructure-invalid or agent-budget-exhausted calibration slot blocks confirmatory execution."
+    ]
+  },
+  "burdenByArm": {
+    "native": {
+      "totalToolCalls": 27.25,
+      "callsToEvidenceClosure": 19.833,
+      "grossInputTokens": 281370.625,
+      "nativeDomainsTouched": 5
+    },
+    "semantic": {
+      "totalToolCalls": 7.5,
+      "callsToEvidenceClosure": 2.375,
+      "grossInputTokens": 149247.75,
+      "nativeDomainsTouched": 0
+    }
+  },
+  "failureClasses": {
+    "wrong-semantic-conclusion": 2
+  },
+  "parityPassed": true,
+  "interpretation": "The frozen calibration did not locate a complete, uncensored three-anchor bracket. Confirmatory execution is blocked; no failure-boundary shift is inferred.",
+  "boundaryReplicationPass": null,
+  "inferentialStatus": "NO_COMPLETE_CALIBRATION_BRACKET"
+}

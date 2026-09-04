@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "authorityOrder": [
+    "frozen_formal_and_empirical_sources",
+    "validated_project_conclusions",
+    "final_consolidation_prompt",
+    "contextual_rationale",
+    "historical_specs",
+    "upstream_references"
+  ],
+  "formalSources": [
+    {
+      "path": "foundation/formal/software-space-ctdd-3.md",
+      "sha256": "a3858ca4ca653cac026ff1064ccbcbf122249d3628eb88e200e418d4999b77db"
+    },
+    {
+      "path": "foundation/formal/software-space-joint-canonicity-companion.md",
+      "sha256": "82f05f7baf090061c93c9e63fb2ca49589299c862e53ca449b9085a140873a12"
+    }
+  ],
+  "researchSources": [
+    {
+      "path": "research/frozen-sources/cordis-relational-reification-v0.3.md",
+      "sha256": "560dd8e2a312257d63a025df11e4835816746fe689ff7c58c929e1a92687f787"
+    },
+    {
+      "path": "research/frozen-sources/cordis-semantic-mirror-design-v0.3.md",
+      "sha256": "ace514687b3865e305d3204fbe56c0bf8cc1de1456b78b7c6cd534e1ed23776b"
+    },
+    {
+      "path": "research/experiments/e1-e2/pilot-executive-audit-v0.1.md",
+      "sha256": "be28ccd092fee99a33550bb01d23afc020b4f1f613d3e565619437d4b32e2914"
+    },
+    {
+      "path": "research/experiments/e1-e2/cordis-agent-interface-v2-experiment-report.md",
+      "sha256": "2fd12e8ad09351a85201ef433f1c6a945a628fd2603759063803ff3abb05cf8c"
+    },
+    {
+      "path": "research/experiments/e1-e2/cordis-agent-interface-four-slot-calibration-v2.1.md",
+      "sha256": "0f475f8aabf4eb40e74a95aab2d99a1040750fd990a2bab056fbafd2f1b3b668"
+    },
+    {
+      "path": "research/experiments/e1-e2/cordis-agent-interface-heldout-replication-v2.1.md",
+      "sha256": "06636f8a420bbba3b8f2e1d1795fee7ce237601cb73b2abbf0ef2977211e5ba5"
+    },
+    {
+      "path": "research/experiments/e3/cordis-agent-semantic-discipline-e3-v0.1-report.md",
+      "sha256": "e949456f4b66f19b17fb9c6ac400aff3c8d7a771ec86d6f7c35031feccbb1bc2"
+    },
+    {
+      "path": "research/experiments/e3/cordis-agent-semantic-discipline-e3-v0.2-report.md",
+      "sha256": "52060711f3f16311386170b4453b6f319b23403166e63c8dea4584d8a76434f0"
+    },
+    {
+      "path": "research/experiments/e3/cordis-agent-semantic-discipline-e3-depth-v0.3-report.md",
+      "sha256": "cfea6330f6d0659ec9af9df5d0aa4987f445fd8a8f2286ac5ef610056c489017"
+    },
+    {
+      "path": "research/experiments/e4/E4-capability-boundary-experiment-report-zh.md",
+      "sha256": "9ebac715ad84b0581e7e126e700b1aa398b38c8fdda9a2d5334e50cee0c58d24"
+    }
+  ],
+  "rawEvidence": [
+    {
+      "path": "research/original-artifacts/cordis-semantic-mirror-poc-v0.1.zip",
+      "sha256": "837cfff1d5fb8923d1e12878bda2cf447e3883cca25ab9a6acdf09257adf0000"
+    },
+    {
+      "path": "research/original-artifacts/cordis-semantic-mirror-poc-v0.2.zip",
+      "sha256": "7b27af11296e70d815f39c34c54201648f6c326b18fecff7c38f3c883ec39eee"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-interface-ab-pilot-v0.1.zip",
+      "sha256": "68521f8ec03ff05c9ab27dd7a1a504a37a45fb215107e07bc0719010c2566cb2"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-interface-benchmark-v2-results.zip",
+      "sha256": "e4bb77ac134192021fa5458eefb47017d76c0ee0c538d31e460d894fcdb165be"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-interface-benchmark-v2.1-results.zip",
+      "sha256": "1576d96c21c40e0dafeba652d115bbcc972796c7e212a1a9e5b28dd4045612dc"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-interface-heldout-replication-v2.1-results.zip",
+      "sha256": "b16ab39030f5ec495cb452797057e62d1fbd2ca1a711f24b5873eb59890fe0f7"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-semantic-discipline-e3-v0.1-results.zip",
+      "sha256": "49b0d40b6741acb0e247352bd292b30bbeaec22f8765393106c3b35459f6b9fa"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-semantic-discipline-e3-v0.2-results.zip",
+      "sha256": "86a27bdebb9a0efc276affe912ca5271d049df771b181cb6da2a28b7301eb2d7"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-semantic-discipline-e3-depth-v0.3-results.zip",
+      "sha256": "1afab144e827947a312711a9dd1d0d18be29450b00cb76ae4c2f5416b3b3d2b8"
+    },
+    {
+      "path": "research/original-artifacts/cordis-agent-capability-boundary-e4-v0.1.zip",
+      "sha256": "f77300c412a1c10932302f24992d4507be4ce4a1cd82eb91f1b6ea33e117dcec"
+    },
+    {
+      "path": "research/original-artifacts/final-analysis.json",
+      "sha256": "c96711c2c989576fee67f0aec7966585da425e88d8e8af67152ad6075eb1bebe"
+    }
+  ],
+  "context": {
+    "path": "research/history/context/six-turn-chat-dialog.md",
+    "authority": "contextual_rationale",
+    "sha256": "5e03ccf08a2377c6f9c8f7006620608548d00f067b6989aa87db890157028a00",
+    "mayOverrideFrozenSources": false
+  },
+  "activeSourceOfTruth": "spec/semantic-contract.md",
+  "dshRevision": "49a606bc5b5934603f22a26957a07dc799ab0291"
+}

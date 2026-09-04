@@ -1,0 +1,10 @@
+# Opt-in patch over a dsh base-backed Host profile.
+# If the profile already mounts cordis-host-runner, keep that row and insert
+# only software-semantic.
+
+- insert:
+    - id: cordis-host-runner
+      name: '@deepseek-ai/dsh-cordis-host-runner'
+
+    - id: software-semantic
+      name: '@software-space/dsh-semantic'

@@ -1,0 +1,49 @@
+{
+  "name": "@software-space/dsh-semantic",
+  "description": "Host-side normalized semantic state and typed assurance tools for DeepSeek Harness",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/src/index.d.ts",
+      "default": "./lib/src/index.js"
+    },
+    "./contract": {
+      "types": "./lib/src/contract.d.ts",
+      "default": "./lib/src/contract.js"
+    },
+    "./assurance": {
+      "types": "./lib/src/assurance.d.ts",
+      "default": "./lib/src/assurance.js"
+    }
+  },
+  "files": [
+    "lib/src/**/*.js",
+    "lib/src/**/*.d.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-agent": "^0.1.2-alpha.5",
+    "@deepseek-ai/dsh-cordis-host-runner": "^0.1.2-alpha.5",
+    "@deepseek-ai/dsh-system-prompt": "^0.1.2-alpha.5",
+    "@deepseek-ai/dsh-tools": "^0.1.2-alpha.5",
+    "@deepseek-ai/dsh-util-values": "^0.1.2-alpha.5"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-cordis-host-runner": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test tests/assurance.test.ts tests/collector.test.ts",
+    "test:composition": "npm run build --silent && node --import tsx --test tests/composition.test.ts"
+  }
+}
