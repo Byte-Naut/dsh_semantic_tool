@@ -1,4 +1,4 @@
-# Software Space Semantic Harness
+# DSH Semantic Tool
 
 A formally grounded semantic interface for software and agent-runtime state. It gives strong agents a compact, auditable view of software state and supports contract-driven design search without repeated reconstruction across native runtime domains.
 
